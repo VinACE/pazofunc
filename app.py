@@ -10,7 +10,7 @@ from io import BytesIO
 # ---------------------------------------------------------------
 AZURE_FUNCTION_KEY = os.getenv("AZURE_FUNCTION_KEY")
 # Example:
-AZURE_FUNCTION_URL = "https://cavin-pazzo-20251015-ci.azurewebsites.net/api/Upload_image?code=F5MbFDI6XcXgRrbm7wX3JcyZdPzsOjswD2KCQROj9haWAzFuiNw41g=="
+AZURE_FUNCTION_URL = "https://cavin-pazzo-20251015-ci.azurewebsites.net/api/Upload_image?code="
 
 BLOB_BASE_URL = "https://pazouploadetest.blob.core.windows.net/images"
 
